@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0472DA451A9A85337769689CEEC6AB86 /* IDZSwiftCommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 50AF4D5A43B9D8BCAC1C895D8B128D09 /* IDZSwiftCommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFE6DAB443FDDD9648A12DB004F8341 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC8A019F41CEC6626FC59B46948E9F8 /* Digest.swift */; };
+		20F113478AA05CCFAD82397F64A9B828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2446E1F839F69326AD1569B273D4851F /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA0CFC04219F50DBFC234D9AD7D801 /* Cryptor.swift */; };
+		3BAA37FD55B3769C1BA77AB845928DA6 /* Pods-IDZSCCGitHub63Share-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F7FC58762DE7EF903A584A49C7453E /* Pods-IDZSCCGitHub63Share-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47B9E9A39B376FFD4951E96D56D681D7 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97382902806997501D7EF2FBE07848D9 /* Status.swift */; };
+		64499412DE6CBE3B51E2E7C633CCBE31 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F0434ED11144CBD1D397967AD75E3E /* Utilities.swift */; };
+		6978F0B1628C17744EDB757F743D8260 /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E4A1E242DA1CE472950E113B143D8 /* KeyDerivation.swift */; };
+		7B274576BE508CA2C586F8C6B4A2CE15 /* IDZSwiftCommonCrypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD0F9B31FE196531923A2E3E0F5963 /* IDZSwiftCommonCrypto-dummy.m */; };
+		802B447F8443580FFA9FEE6B8B9A8E1E /* Pods-IDZSCCGitHub63Share-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3815FB3FCD7C5BE322E3627C73890F83 /* Pods-IDZSCCGitHub63Share-dummy.m */; };
+		9AB3EF6346E047F5F1596E498DF30EFE /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C226CADC1DE0C1CF91F2305599F56E1 /* Updateable.swift */; };
+		A184AC4ED36002CA806FFF32301A9A1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A6777F2CAFB0AA845744631BA09FB9C1 /* StreamCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D5DBBEC1D313A828002BE54A147B56 /* StreamCryptor.swift */; };
+		AE55EBEF9E09DE3190271FA22F9C5FD7 /* Pods-IDZSCCGitHub63-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F19AD9C92C7718F479BA593389A4A729 /* Pods-IDZSCCGitHub63-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0221285F1E28C0A54813A6D05F59181 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE388A8F60E7E85E946F96DD41F8A06C /* HMAC.swift */; };
+		BD356F6E384336155AD501494838125C /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCD33F50BE6951F293C83B831CDE94 /* Random.swift */; };
+		BE8A0605A0BC75D10A0C000793657194 /* Pods-IDZSCCGitHub63-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E687A7F5A792E3F7A3F7F6ECDA03AC0 /* Pods-IDZSCCGitHub63-dummy.m */; };
+		C00EC19CE7FEB0C9E617115755A35674 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C223EDE91F9121DBF3DECF00ECA72F62 /* IDZSwiftCommonCrypto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4899729D3DEB074D006B2BF7895EA9E /* IDZSwiftCommonCrypto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E608F60A258138ADC2C9ED0DB971CE93 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86001D0E8D57E5B059135872690FAA7 /* Crypto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63F0256BB3BCC3943862EE63AA765D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F6C1A6340E052B806E7CAFAB67735A;
+			remoteInfo = IDZSwiftCommonCrypto;
+		};
+		DFCC6FA3C22F4F1F8EA38735D1089F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F6C1A6340E052B806E7CAFAB67735A;
+			remoteInfo = IDZSwiftCommonCrypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A670CF0B4E276072839BDD3365AC1B /* IDZSwiftCommonCrypto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IDZSwiftCommonCrypto-prefix.pch"; sourceTree = "<group>"; };
+		1C226CADC1DE0C1CF91F2305599F56E1 /* Updateable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updateable.swift; path = IDZSwiftCommonCrypto/Updateable.swift; sourceTree = "<group>"; };
+		282A83D782FCBCBAEEB5C3F1AA50529E /* Pods-IDZSCCGitHub63-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IDZSCCGitHub63-resources.sh"; sourceTree = "<group>"; };
+		30CCD33F50BE6951F293C83B831CDE94 /* Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Random.swift; path = IDZSwiftCommonCrypto/Random.swift; sourceTree = "<group>"; };
+		3815FB3FCD7C5BE322E3627C73890F83 /* Pods-IDZSCCGitHub63Share-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IDZSCCGitHub63Share-dummy.m"; sourceTree = "<group>"; };
+		3876E85A6CB6917C6A2E6F4D7F79C0FA /* Pods-IDZSCCGitHub63.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDZSCCGitHub63.release.xcconfig"; sourceTree = "<group>"; };
+		39E187D486795A07F76F5046BE4A5377 /* IDZSwiftCommonCrypto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IDZSwiftCommonCrypto.modulemap; sourceTree = "<group>"; };
+		3E868B3322A0EE8752697FA5A690444F /* Pods-IDZSCCGitHub63-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IDZSCCGitHub63-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42030442CAD72771F3735D9390ADC0DB /* IDZSwiftCommonCrypto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IDZSwiftCommonCrypto.xcconfig; sourceTree = "<group>"; };
+		50AF4D5A43B9D8BCAC1C895D8B128D09 /* IDZSwiftCommonCrypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDZSwiftCommonCrypto.h; path = IDZSwiftCommonCrypto/IDZSwiftCommonCrypto.h; sourceTree = "<group>"; };
+		57F53232B91EFC947A93D92713A630C3 /* Pods-IDZSCCGitHub63.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IDZSCCGitHub63.modulemap"; sourceTree = "<group>"; };
+		5A30AB2639C8BA4C9A29960C08C9B58A /* Pods-IDZSCCGitHub63Share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDZSCCGitHub63Share.release.xcconfig"; sourceTree = "<group>"; };
+		5DAD0F9B31FE196531923A2E3E0F5963 /* IDZSwiftCommonCrypto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IDZSwiftCommonCrypto-dummy.m"; sourceTree = "<group>"; };
+		5DC8A019F41CEC6626FC59B46948E9F8 /* Digest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Digest.swift; path = IDZSwiftCommonCrypto/Digest.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68CA0CFC04219F50DBFC234D9AD7D801 /* Cryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptor.swift; path = IDZSwiftCommonCrypto/Cryptor.swift; sourceTree = "<group>"; };
+		6E687A7F5A792E3F7A3F7F6ECDA03AC0 /* Pods-IDZSCCGitHub63-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IDZSCCGitHub63-dummy.m"; sourceTree = "<group>"; };
+		87E8838B2E9FC56BB2DA15737D6A56C5 /* Pods_IDZSCCGitHub63Share.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IDZSCCGitHub63Share.framework; path = "Pods-IDZSCCGitHub63Share.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		899CF0DD07E5CE10FA16EAA0FADD3400 /* Pods-IDZSCCGitHub63Share-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IDZSCCGitHub63Share-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97382902806997501D7EF2FBE07848D9 /* Status.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Status.swift; path = IDZSwiftCommonCrypto/Status.swift; sourceTree = "<group>"; };
+		9D8632B3F10ACFCC56CFDFD7349A4C68 /* Pods-IDZSCCGitHub63-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IDZSCCGitHub63-frameworks.sh"; sourceTree = "<group>"; };
+		A1F7FC58762DE7EF903A584A49C7453E /* Pods-IDZSCCGitHub63Share-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IDZSCCGitHub63Share-umbrella.h"; sourceTree = "<group>"; };
+		B5D5DBBEC1D313A828002BE54A147B56 /* StreamCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamCryptor.swift; path = IDZSwiftCommonCrypto/StreamCryptor.swift; sourceTree = "<group>"; };
+		B7AD078790F6DBF572F55B58F1595A11 /* Pods-IDZSCCGitHub63.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDZSCCGitHub63.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1710768FB444CD39C8EF8AB4C44A56 /* Pods-IDZSCCGitHub63Share-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IDZSCCGitHub63Share-resources.sh"; sourceTree = "<group>"; };
+		C0F0434ED11144CBD1D397967AD75E3E /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = IDZSwiftCommonCrypto/Utilities.swift; sourceTree = "<group>"; };
+		C4899729D3DEB074D006B2BF7895EA9E /* IDZSwiftCommonCrypto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IDZSwiftCommonCrypto-umbrella.h"; sourceTree = "<group>"; };
+		C6282753FB348618906B38FF6DC5A3D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C706355457F838DECD064DF8D54CC639 /* Pods-IDZSCCGitHub63Share.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IDZSCCGitHub63Share.modulemap"; sourceTree = "<group>"; };
+		D09D36F356383A847BA63E34B25F5801 /* Pods-IDZSCCGitHub63-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IDZSCCGitHub63-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC77B54996B0C0A326F884745B5B0C76 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IDZSwiftCommonCrypto.framework; path = IDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE388A8F60E7E85E946F96DD41F8A06C /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = IDZSwiftCommonCrypto/HMAC.swift; sourceTree = "<group>"; };
+		DFE1BC76A45032E6F2068F0D506554A3 /* Pods-IDZSCCGitHub63Share-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IDZSCCGitHub63Share-acknowledgements.plist"; sourceTree = "<group>"; };
+		E25E4A1E242DA1CE472950E113B143D8 /* KeyDerivation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyDerivation.swift; path = IDZSwiftCommonCrypto/KeyDerivation.swift; sourceTree = "<group>"; };
+		E38BF76A7A90C1D2A54844BD88836CFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB723AB34CF47F5BACD7FDFC520B288 /* Pods-IDZSCCGitHub63Share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IDZSCCGitHub63Share.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE72454C0946BD38BE0EB4A2CFE0E22 /* Pods_IDZSCCGitHub63.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IDZSCCGitHub63.framework; path = "Pods-IDZSCCGitHub63.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8335929049E8977680F6E2935C1CBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19AD9C92C7718F479BA593389A4A729 /* Pods-IDZSCCGitHub63-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IDZSCCGitHub63-umbrella.h"; sourceTree = "<group>"; };
+		F86001D0E8D57E5B059135872690FAA7 /* Crypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crypto.swift; path = IDZSwiftCommonCrypto/Crypto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170438B90E332DC06CA194A83DBA46C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00EC19CE7FEB0C9E617115755A35674 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1914862A67E946C9C479F448004F523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A184AC4ED36002CA806FFF32301A9A1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAAA3928FF524344D11120650786E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F113478AA05CCFAD82397F64A9B828 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B243E5791574D5166B8BE140C67543A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FDE5ECB712116D2B24C8C7C9E44A0 /* IDZSwiftCommonCrypto */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DAF349D88B216DB44AF9BBE9EB2CE3A /* Pods-IDZSCCGitHub63 */ = {
+			isa = PBXGroup;
+			children = (
+				EE8335929049E8977680F6E2935C1CBF /* Info.plist */,
+				57F53232B91EFC947A93D92713A630C3 /* Pods-IDZSCCGitHub63.modulemap */,
+				3E868B3322A0EE8752697FA5A690444F /* Pods-IDZSCCGitHub63-acknowledgements.markdown */,
+				D09D36F356383A847BA63E34B25F5801 /* Pods-IDZSCCGitHub63-acknowledgements.plist */,
+				6E687A7F5A792E3F7A3F7F6ECDA03AC0 /* Pods-IDZSCCGitHub63-dummy.m */,
+				9D8632B3F10ACFCC56CFDFD7349A4C68 /* Pods-IDZSCCGitHub63-frameworks.sh */,
+				282A83D782FCBCBAEEB5C3F1AA50529E /* Pods-IDZSCCGitHub63-resources.sh */,
+				F19AD9C92C7718F479BA593389A4A729 /* Pods-IDZSCCGitHub63-umbrella.h */,
+				B7AD078790F6DBF572F55B58F1595A11 /* Pods-IDZSCCGitHub63.debug.xcconfig */,
+				3876E85A6CB6917C6A2E6F4D7F79C0FA /* Pods-IDZSCCGitHub63.release.xcconfig */,
+			);
+			name = "Pods-IDZSCCGitHub63";
+			path = "Target Support Files/Pods-IDZSCCGitHub63";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3B243E5791574D5166B8BE140C67543A /* Pods */,
+				F7521E415B637FDE771144CE1B4C776A /* Products */,
+				A648BD25753BC6387423AFCD65F95289 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9263FC48BA7B25D3F1C34DE68F732343 /* Pods-IDZSCCGitHub63Share */ = {
+			isa = PBXGroup;
+			children = (
+				C6282753FB348618906B38FF6DC5A3D2 /* Info.plist */,
+				C706355457F838DECD064DF8D54CC639 /* Pods-IDZSCCGitHub63Share.modulemap */,
+				899CF0DD07E5CE10FA16EAA0FADD3400 /* Pods-IDZSCCGitHub63Share-acknowledgements.markdown */,
+				DFE1BC76A45032E6F2068F0D506554A3 /* Pods-IDZSCCGitHub63Share-acknowledgements.plist */,
+				3815FB3FCD7C5BE322E3627C73890F83 /* Pods-IDZSCCGitHub63Share-dummy.m */,
+				BC1710768FB444CD39C8EF8AB4C44A56 /* Pods-IDZSCCGitHub63Share-resources.sh */,
+				A1F7FC58762DE7EF903A584A49C7453E /* Pods-IDZSCCGitHub63Share-umbrella.h */,
+				EBB723AB34CF47F5BACD7FDFC520B288 /* Pods-IDZSCCGitHub63Share.debug.xcconfig */,
+				5A30AB2639C8BA4C9A29960C08C9B58A /* Pods-IDZSCCGitHub63Share.release.xcconfig */,
+			);
+			name = "Pods-IDZSCCGitHub63Share";
+			path = "Target Support Files/Pods-IDZSCCGitHub63Share";
+			sourceTree = "<group>";
+		};
+		A2829C740ACFE484F00F0D549AF4BDB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E187D486795A07F76F5046BE4A5377 /* IDZSwiftCommonCrypto.modulemap */,
+				42030442CAD72771F3735D9390ADC0DB /* IDZSwiftCommonCrypto.xcconfig */,
+				5DAD0F9B31FE196531923A2E3E0F5963 /* IDZSwiftCommonCrypto-dummy.m */,
+				11A670CF0B4E276072839BDD3365AC1B /* IDZSwiftCommonCrypto-prefix.pch */,
+				C4899729D3DEB074D006B2BF7895EA9E /* IDZSwiftCommonCrypto-umbrella.h */,
+				E38BF76A7A90C1D2A54844BD88836CFC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IDZSwiftCommonCrypto";
+			sourceTree = "<group>";
+		};
+		A648BD25753BC6387423AFCD65F95289 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DAF349D88B216DB44AF9BBE9EB2CE3A /* Pods-IDZSCCGitHub63 */,
+				9263FC48BA7B25D3F1C34DE68F732343 /* Pods-IDZSCCGitHub63Share */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC2FDE5ECB712116D2B24C8C7C9E44A0 /* IDZSwiftCommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				F86001D0E8D57E5B059135872690FAA7 /* Crypto.swift */,
+				68CA0CFC04219F50DBFC234D9AD7D801 /* Cryptor.swift */,
+				5DC8A019F41CEC6626FC59B46948E9F8 /* Digest.swift */,
+				DE388A8F60E7E85E946F96DD41F8A06C /* HMAC.swift */,
+				50AF4D5A43B9D8BCAC1C895D8B128D09 /* IDZSwiftCommonCrypto.h */,
+				E25E4A1E242DA1CE472950E113B143D8 /* KeyDerivation.swift */,
+				30CCD33F50BE6951F293C83B831CDE94 /* Random.swift */,
+				97382902806997501D7EF2FBE07848D9 /* Status.swift */,
+				B5D5DBBEC1D313A828002BE54A147B56 /* StreamCryptor.swift */,
+				1C226CADC1DE0C1CF91F2305599F56E1 /* Updateable.swift */,
+				C0F0434ED11144CBD1D397967AD75E3E /* Utilities.swift */,
+				A2829C740ACFE484F00F0D549AF4BDB0 /* Support Files */,
+			);
+			name = IDZSwiftCommonCrypto;
+			path = IDZSwiftCommonCrypto;
+			sourceTree = "<group>";
+		};
+		F7521E415B637FDE771144CE1B4C776A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC77B54996B0C0A326F884745B5B0C76 /* IDZSwiftCommonCrypto.framework */,
+				EBE72454C0946BD38BE0EB4A2CFE0E22 /* Pods_IDZSCCGitHub63.framework */,
+				87E8838B2E9FC56BB2DA15737D6A56C5 /* Pods_IDZSCCGitHub63Share.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EA6BADE653040366FA1D20342446A68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C223EDE91F9121DBF3DECF00ECA72F62 /* IDZSwiftCommonCrypto-umbrella.h in Headers */,
+				0472DA451A9A85337769689CEEC6AB86 /* IDZSwiftCommonCrypto.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54835A9591C41E5A707FC9E4927082F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAA37FD55B3769C1BA77AB845928DA6 /* Pods-IDZSCCGitHub63Share-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B2F6F17D9D7BF0FFA32F7F6DD23202 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE55EBEF9E09DE3190271FA22F9C5FD7 /* Pods-IDZSCCGitHub63-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E51D73A4225770922F5E30EB4E6DF5D /* Pods-IDZSCCGitHub63 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355D2E8BEC41CA20FAC0ABC99ADF40E9 /* Build configuration list for PBXNativeTarget "Pods-IDZSCCGitHub63" */;
+			buildPhases = (
+				3F43E489F7F11D227840835C69124BF5 /* Sources */,
+				E1914862A67E946C9C479F448004F523 /* Frameworks */,
+				68B2F6F17D9D7BF0FFA32F7F6DD23202 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71058DFFA042E8298F402BBA473B599F /* PBXTargetDependency */,
+			);
+			name = "Pods-IDZSCCGitHub63";
+			productName = "Pods-IDZSCCGitHub63";
+			productReference = EBE72454C0946BD38BE0EB4A2CFE0E22 /* Pods_IDZSCCGitHub63.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35F6C1A6340E052B806E7CAFAB67735A /* IDZSwiftCommonCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5119F3598B8011D68B8C610F17DAE8E8 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto" */;
+			buildPhases = (
+				D0469A7DD9A6D3EE5019214F023AA460 /* Sources */,
+				EDAAA3928FF524344D11120650786E49 /* Frameworks */,
+				3EA6BADE653040366FA1D20342446A68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDZSwiftCommonCrypto;
+			productName = IDZSwiftCommonCrypto;
+			productReference = DC77B54996B0C0A326F884745B5B0C76 /* IDZSwiftCommonCrypto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF8C61E2E90997DFB6FFC367AC527BD7 /* Pods-IDZSCCGitHub63Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE460311DF68682B84837DF54781502A /* Build configuration list for PBXNativeTarget "Pods-IDZSCCGitHub63Share" */;
+			buildPhases = (
+				47FF3DE82D964670925789698BEBE17A /* Sources */,
+				170438B90E332DC06CA194A83DBA46C6 /* Frameworks */,
+				54835A9591C41E5A707FC9E4927082F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E18782D31A280DBA80E0BF5E16299136 /* PBXTargetDependency */,
+			);
+			name = "Pods-IDZSCCGitHub63Share";
+			productName = "Pods-IDZSCCGitHub63Share";
+			productReference = 87E8838B2E9FC56BB2DA15737D6A56C5 /* Pods_IDZSCCGitHub63Share.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F7521E415B637FDE771144CE1B4C776A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35F6C1A6340E052B806E7CAFAB67735A /* IDZSwiftCommonCrypto */,
+				2E51D73A4225770922F5E30EB4E6DF5D /* Pods-IDZSCCGitHub63 */,
+				FF8C61E2E90997DFB6FFC367AC527BD7 /* Pods-IDZSCCGitHub63Share */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F43E489F7F11D227840835C69124BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8A0605A0BC75D10A0C000793657194 /* Pods-IDZSCCGitHub63-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FF3DE82D964670925789698BEBE17A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802B447F8443580FFA9FEE6B8B9A8E1E /* Pods-IDZSCCGitHub63Share-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0469A7DD9A6D3EE5019214F023AA460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E608F60A258138ADC2C9ED0DB971CE93 /* Crypto.swift in Sources */,
+				2446E1F839F69326AD1569B273D4851F /* Cryptor.swift in Sources */,
+				0FFE6DAB443FDDD9648A12DB004F8341 /* Digest.swift in Sources */,
+				B0221285F1E28C0A54813A6D05F59181 /* HMAC.swift in Sources */,
+				7B274576BE508CA2C586F8C6B4A2CE15 /* IDZSwiftCommonCrypto-dummy.m in Sources */,
+				6978F0B1628C17744EDB757F743D8260 /* KeyDerivation.swift in Sources */,
+				BD356F6E384336155AD501494838125C /* Random.swift in Sources */,
+				47B9E9A39B376FFD4951E96D56D681D7 /* Status.swift in Sources */,
+				A6777F2CAFB0AA845744631BA09FB9C1 /* StreamCryptor.swift in Sources */,
+				9AB3EF6346E047F5F1596E498DF30EFE /* Updateable.swift in Sources */,
+				64499412DE6CBE3B51E2E7C633CCBE31 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71058DFFA042E8298F402BBA473B599F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IDZSwiftCommonCrypto;
+			target = 35F6C1A6340E052B806E7CAFAB67735A /* IDZSwiftCommonCrypto */;
+			targetProxy = 63F0256BB3BCC3943862EE63AA765D4C /* PBXContainerItemProxy */;
+		};
+		E18782D31A280DBA80E0BF5E16299136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IDZSwiftCommonCrypto;
+			target = 35F6C1A6340E052B806E7CAFAB67735A /* IDZSwiftCommonCrypto */;
+			targetProxy = DFCC6FA3C22F4F1F8EA38735D1089F34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		631B2974EA40818D85F25BF154D8FB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42030442CAD72771F3735D9390ADC0DB /* IDZSwiftCommonCrypto.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IDZSwiftCommonCrypto/IDZSwiftCommonCrypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IDZSwiftCommonCrypto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IDZSwiftCommonCrypto/IDZSwiftCommonCrypto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92A4A74654A2B071C5E791A502B0B2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB723AB34CF47F5BACD7FDFC520B288 /* Pods-IDZSCCGitHub63Share.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IDZSCCGitHub63Share/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IDZSCCGitHub63Share/Pods-IDZSCCGitHub63Share.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IDZSCCGitHub63Share;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9511FBE208A30DF65DF40E67146CDBA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3876E85A6CB6917C6A2E6F4D7F79C0FA /* Pods-IDZSCCGitHub63.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IDZSCCGitHub63/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IDZSCCGitHub63/Pods-IDZSCCGitHub63.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IDZSCCGitHub63;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C35636D9C870CAFE1AA0A3732EC07BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7AD078790F6DBF572F55B58F1595A11 /* Pods-IDZSCCGitHub63.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IDZSCCGitHub63/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IDZSCCGitHub63/Pods-IDZSCCGitHub63.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IDZSCCGitHub63;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E3FD86E596FBF390DAC313181362350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A30AB2639C8BA4C9A29960C08C9B58A /* Pods-IDZSCCGitHub63Share.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IDZSCCGitHub63Share/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IDZSCCGitHub63Share/Pods-IDZSCCGitHub63Share.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IDZSCCGitHub63Share;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB54822D8986980CC14E2D283D34A7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42030442CAD72771F3735D9390ADC0DB /* IDZSwiftCommonCrypto.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IDZSwiftCommonCrypto/IDZSwiftCommonCrypto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IDZSwiftCommonCrypto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IDZSwiftCommonCrypto/IDZSwiftCommonCrypto.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355D2E8BEC41CA20FAC0ABC99ADF40E9 /* Build configuration list for PBXNativeTarget "Pods-IDZSCCGitHub63" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C35636D9C870CAFE1AA0A3732EC07BE /* Debug */,
+				9511FBE208A30DF65DF40E67146CDBA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5119F3598B8011D68B8C610F17DAE8E8 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB54822D8986980CC14E2D283D34A7B9 /* Debug */,
+				631B2974EA40818D85F25BF154D8FB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE460311DF68682B84837DF54781502A /* Build configuration list for PBXNativeTarget "Pods-IDZSCCGitHub63Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A4A74654A2B071C5E791A502B0B2CF /* Debug */,
+				9E3FD86E596FBF390DAC313181362350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
